@@ -9,6 +9,8 @@ import com.serotonin.modbus4j.exception.ModbusTransportException;
 import com.serotonin.modbus4j.ip.IpParameters;
 import com.serotonin.modbus4j.locator.BaseLocator;
 
+import java.util.logging.Logger;
+
 /**
  * modbus通讯工具类,采用modbus4j实现
  *
@@ -17,6 +19,7 @@ import com.serotonin.modbus4j.locator.BaseLocator;
  * @website https://github.com/infiniteautomation/modbus4j
  */
 public class Modbus4jUtils {
+
     /**
      * 工厂。
      */
